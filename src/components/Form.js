@@ -46,7 +46,7 @@ function App() {
     if (validateForm()) {
       // Form is valid, handle form submission (e.g., send data to server)
       console.log('Form data submitted:', formData);
-    }
+    };
   };
 
   return (
@@ -100,7 +100,7 @@ function App() {
         </div>
       </form>
       <div id="founder" align="end">
-        Designed by <span>Eswar</span>
+        Designed by <span>Eswark</span>
       </div>
     </div>
   );
