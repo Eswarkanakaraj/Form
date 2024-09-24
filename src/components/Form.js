@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Form.css'; // Make sure to import your CSS file
+import './Form.css'; 
 
 function App() {
   const [formData, setFormData] = useState({
@@ -46,6 +46,20 @@ function App() {
     if (validateForm()) {
       // Form is valid, handle form submission (e.g., send data to server)
       console.log('Form data submitted:', formData);
+      setErrors(
+        {
+          firstName: '',
+          lastName: '',
+          email: '',
+          password: '',
+        }
+      );
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        password: '',
+      })
     };
   };
 
