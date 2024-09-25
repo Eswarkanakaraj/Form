@@ -114,7 +114,7 @@ function App() {
         </div>
       </form>
       <div id="founder" align="end">
-        Designed by <span>Eswark</span>
+        Designed by <span>Eswar</span>
       </div>
     </div>
   );
